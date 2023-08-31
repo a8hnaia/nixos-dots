@@ -14,7 +14,6 @@
 			#neovim
 			kitty
 			polkit-kde-agent
-			git
 			waylock
 		];
 	};
