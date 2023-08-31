@@ -1,10 +1,10 @@
-_: {
+{ inputs, self, ... }: {
 	home-manager = {
 		useGlobalPkgs = true;
 		useUserPackages = true;
 		users = {
 			"ath" = import ./ath;
 		};
+		extraSpecialArgs = {inherit inputs self;};
 	};
-	extraSpecialArgs = {inherit inputs self;};
 }
