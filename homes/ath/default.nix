@@ -11,7 +11,6 @@
 		stateVersion = "23.05";
 
 		packages = with pkgs; [
-			#neovim
 			kitty
 			polkit-kde-agent
 			waylock
@@ -29,8 +28,8 @@
 		enableZshIntegration = true;
 	};
 
-	#programs.neovim-flake = {
-		#enable = true;
-		#settings.vim.lsp.enable = true;
-	#};
+	programs.neovim-flake = {
+		enable = true;
+		settings.vim.lsp.enable = true;
+	};
 }
