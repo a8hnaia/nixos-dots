@@ -100,6 +100,7 @@
 		fira-code
 		fira-code-symbols
 		(nerdfonts.override { fonts = [ "FiraCode" "DroidSansMono" ]; })
+        powerline-symbols
 	];
 
 	nixpkgs.config.packageOverrides = pkgs: {
